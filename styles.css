@@ -1,0 +1,74 @@
+/* コンテナ */
+div.container {
+    width: 2800px;
+    height: 1024px;
+    position: relative;
+    background: #FFF;
+  }
+  
+  /* メインテキスト */
+  div.main-text {
+    left: 355px;
+    top: 251px;
+    position: absolute;
+    word-wrap: break-word;
+    color: #000;
+    text-shadow: 9px 11px 10px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  
+  /* サブテキスト */
+  div.sub-text {
+    left: 355px;
+    top: 725px;
+    position: absolute;
+    font-size: 96px;
+    font-family: Inter;
+    font-weight: 800;
+    word-wrap: break-word;
+    font-style: normal;
+    line-height: normal;
+  }
+  
+  /* 画像 */
+  img.featured-image {
+    width: 496px;
+    height: 372px;
+    left: 2068px;
+    top: 390px;
+    position: absolute;
+    opacity: 0.80;
+    border-radius: 10px;
+  }
+  
+  /* Worksテキスト */
+  div.works-text {
+    left: 1985px;
+    top: 281px;
+    position: absolute;
+    color: black;
+    font-size: 90px;
+    font-family: Inter;
+    font-weight: 800;
+    word-wrap: break-word;
+  }
+  
+  /* Qiitaテキスト */
+  div.qiita-text {
+    left: 81px;
+    top: 392px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 800;
+    word-wrap: break-word;
+  }
+  
+  /* その他の要素 */
+  /* ... */
+  
