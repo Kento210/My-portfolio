@@ -4,10 +4,10 @@ div.container {
     height: 1024px;
     position: relative;
     background: #FFF;
-  }
-  
-  /* メインテキスト */
-  div.main-text {
+}
+
+/* メインテキスト */
+div.main-text {
     left: 355px;
     top: 251px;
     position: absolute;
@@ -16,26 +16,21 @@ div.container {
     text-shadow: 9px 11px 10px rgba(0, 0, 0, 0.25);
     font-family: Inter;
     font-size: 128px;
-    font-style: normal;
     font-weight: 800;
-    line-height: normal;
-  }
-  
-  /* サブテキスト */
-  div.sub-text {
+}
+
+/* サブテキスト */
+div.sub-text {
     left: 355px;
     top: 725px;
     position: absolute;
     font-size: 96px;
     font-family: Inter;
     font-weight: 800;
-    word-wrap: break-word;
-    font-style: normal;
-    line-height: normal;
-  }
-  
-  /* 画像 */
-  img.featured-image {
+}
+
+/* 画像 */
+img.featured-image {
     width: 496px;
     height: 372px;
     left: 2068px;
@@ -43,10 +38,10 @@ div.container {
     position: absolute;
     opacity: 0.80;
     border-radius: 10px;
-  }
-  
-  /* Worksテキスト */
-  div.works-text {
+}
+
+/* Worksテキスト */
+div.works-text {
     left: 1985px;
     top: 281px;
     position: absolute;
@@ -54,11 +49,10 @@ div.container {
     font-size: 90px;
     font-family: Inter;
     font-weight: 800;
-    word-wrap: break-word;
-  }
-  
-  /* Qiitaテキスト */
-  div.qiita-text {
+}
+
+/* Qiitaテキスト */
+div.qiita-text {
     left: 81px;
     top: 392px;
     position: absolute;
@@ -66,9 +60,62 @@ div.container {
     font-size: 20px;
     font-family: Inter;
     font-weight: 800;
-    word-wrap: break-word;
-  }
-  
-  /* その他の要素 */
-  /* ... */
+}
+
+/* その他の要素 */
+div.divider {
+    width: 217px;
+    height: 0px;
+    left: 247px;
+    top: 118px;
+    position: absolute;
+    border: 4px black solid;
+}
+
+div.black-box1 {
+    width: 70px;
+    height: 70px;
+    left: 69px;
+    top: 83px;
+    position: absolute;
+    background: black;
+}
+
+div.black-box2 {
+    width: 70px;
+    height: 70px;
+    left: 69px;
+    top: 203px;
+    position: absolute;
+    background: black;
+}
+
+div.black-bar {
+    width: 750px;
+    height: 7px;
+    left: 345px;
+    top: 960px;
+    position: absolute;
+    background: black;
+    border-radius: 50px;
+}
+
+div.flex-box {
+    width: 69px;
+    height: 69px;
+    left: 70px;
+    top: 323px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.rotated-box {
+    width: 65.05px;
+    height: 32.53px;
+    transform: rotate(-45deg);
+    background: black;
+}
+
   
